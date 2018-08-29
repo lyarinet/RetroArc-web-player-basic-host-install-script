@@ -1,14 +1,13 @@
-# RetroArch-web-player-basic-host-installation-script-on-docker-apache-ubuntu-
-RetroArch Web player
+## RetroArch Web player
 
-Download
+**Download**
 
-git clone https://github.com/asifagaria/RetroArch-web-player-basic-host-installation-script-on-docker-apache-ubuntu-.git retroarch
+> git clone https://github.com/asifagaria/RetroArch-web-player-basic-host-installation-script-on-docker-apache-ubuntu-.git retroarch
 
-cd retroarch
+> cd retroarch
 
-chmod 777 install.sh
+> chmod 777 install.sh
 
+```bash
 ./install.sh
-
-
+```
