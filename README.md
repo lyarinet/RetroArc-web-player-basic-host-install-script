@@ -8,7 +8,7 @@ git clone https://github.com/asifagaria/RetroArch-web-player-basic-host-installa
 ```
 
 
-> cd retroarch
+> cd /var/www/html
 
 > chmod 777 install.sh
 
