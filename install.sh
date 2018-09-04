@@ -1,4 +1,4 @@
-cd /var/www/html
+cd /var/www/html/retroarch
 # rm -r *
 
 apt-get update && apt-get -y install wget nano git-core curl build-essential openssl libssl-dev python p7zip unzip
@@ -12,7 +12,7 @@ chmod +x indexer
 cd assets/frontend/bundle
 wget https://buildbot.libretro.com/assets/frontend/bundle.zip
 unzip bundle.zip
-cd /var/www/html
+cd /var/www/html/retroarch
 
 ### coffee installation
 git clone https://github.com/nodejs/node.git && cd node
@@ -21,8 +21,8 @@ make -j4
 make install
 npm install -g coffee-script
 
-cd /var/www/html/assets/frontend/bundle
+cd /var/www/html/retroarch/assets/frontend/bundle
 ../../../indexer > .index-xhr
 
-cd /var/www/html/assets/cores
+cd /var/www/html/retroarch/assets/cores
 ../../indexer > .index-xhr
