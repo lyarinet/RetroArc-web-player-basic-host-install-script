@@ -4,11 +4,11 @@
 
 
 ```bash
-git clone https://github.com/asifagaria/RetroArch-web-player-basic-host-installation-script-on-docker-apache-ubuntu-.git retroarch
+git clone https://github.com/asifagaria/RetroArc-web-player-basic-host-install-script.git retroarch
 ```
 
 
-> cd /var/www/html
+> cd /var/www/html/retroarch
 
 > chmod 777 install.sh
 
