@@ -4,7 +4,7 @@
 
 
 ```bash
-git clone https://github.com/asifagaria/RetroArc-web-player-basic-host-install-script.git retroarch
+git clone https://github.com/lyarinet/RetroArc-web-player-basic-host-install-script.git retroarch
 ```
 
 
